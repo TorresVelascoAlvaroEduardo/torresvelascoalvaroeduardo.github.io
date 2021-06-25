@@ -13,8 +13,8 @@
     <title>Document</title>
 </head>
 
-<body>            
-        <header class="NavegaBarra">                        
+<body>
+        <header class="NavegaBarra">
             <nav>
                 <ul>
                     <li><a class="item" href="#Top">Inicio</a></li>
@@ -26,9 +26,9 @@
                     <li><a class="item" href="#Glosario">Glosario</a></li>
                     <li><a class="item" href="#Fin">Fin</a></li>
                 </ul>
-            </nav>            
+            </nav>
         </header>
-        
+
         <section class="Titulo">
             <a name="Top"></a>
             <h1> EL ZORRITO Y EL LOBO </h1>
@@ -175,12 +175,12 @@
                     demás animales
                     por temor de que lo matasen.
                 </p>
-            </div>            
+            </div>
             <div class="Nahuatl">
                 <a name="Vli"></a>
                 <div class="Separador">
                     <img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_960_720.png">
-                </div>            
+                </div>
                 <h3> Version en Nahuatl</h3>
                 <p>
                     Cente capizcayotl ica iconen ochantía itic cente huey tlacoyotl,
@@ -342,7 +342,7 @@
                 <img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_960_720.png">
             </div>
             <h3> Audio del cuento </h3>
-            <audio controls>                
+            <audio controls>
                 <source src="zorritolobo.mp3" type="audio/ogg">
                 Your browser does not support the audio element.
             </audio>
@@ -362,23 +362,45 @@
                       antes y después de una cita delimitada por un BLOCKQUOTE de un modo apropiado según
                       el contexto del idioma actual y el grado de anidamiento de las citas.
                     </p>
-                  </blockquote>                
+                  </blockquote>
             </div>
             <a name="ComentariosG"></a>
             <div class="Separador">
                 <img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_960_720.png">
-            </div>            
-            <div class="Comentarios">                
+            </div>
+            <div class="Comentarios">
+                <h3> Comentarios </h3>
+                <div class="Comentarios">
                 <h1> Comentarios </h3>
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://alvaro-5.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>  
             </div>
         </section>
 
-        <section>            
+        <section>
             <a name="Glosario"></a>
             <div class="Separador">
                 <img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_960_720.png">
             </div>
-            <h1> glosario </h1>                        
+            <h1> glosario </h1>
                 <dl>
                     <dt> Breñal </dt>
                     <dd> Sitio con muchas breñas o malezas.</dd>
@@ -400,13 +422,13 @@
                     <dd> Esta palabra hace referencia a una opinion o juicio que se puede generar de un objeto o ser vivo.</dd>
                     <dt> Pescuezo </dt>
                     <dd> Cuello de un animal, especialmente la parte posterior, desde la parte superior hasta el inicio del tronco.</dd>
-                    
-                </dl>         
+
+                </dl>
         </section>
 
         <footer>
             <a name="Fin"></a>
-            <div class="PiePage">                
+            <div class="PiePage">
                 <div class="Column">
                     <p>Miguel León-Portilla (prólogo)
                     </br>Cuarta edición
@@ -416,18 +438,18 @@
                     </br>2001
                     </br>120 p.
                     </br>(Serie Cultura Náhuatl - Monografías, 7)
-                    </br>ISBN 968-36-8964-7                    
+                    </br>ISBN 968-36-8964-7
                     </p>
                 </div>
                 <div class="Column">
                     <p>
                         Historias Digitales
                     </br>Formato: PDF
-                    </br>Publicado en línea : 17 de agosto de 2016                
+                    </br>Publicado en línea : 17 de agosto de 2016
                     </br>Disponible en : <a class="ref" href="http://www.historicas.unam.mx/publicaciones/publicadigital/libros/cuentos_indigenas/iee.html">http://www.historicas.unam.mx/publicaciones/publicadigital/libros/cuentos_indigenas/iee.html</a>
-                    </br></br></br> Sitio Web desarrollado por:  Torres Velasco Alvaro Eduardo 
+                    </br></br></br> Sitio Web desarrollado por:  Torres Velasco Alvaro Eduardo
                     </p>
-                                    
+
                 </div>
                 <div class="Column">
                     <p class="Small">DR © 2016, Universidad Nacional Autónoma de México-Instituto de
@@ -436,8 +458,8 @@
                         dirección electrónica. De otra forma, requiere permiso previo por escrito de la
                         institución. Dirección: Circuito Mtro. Mario de la Cueva s/n, Ciudad
                         Universitaria, Coyoacán, 04510. Ciudad de México</p>
-                </div>                                                
-            </div>            
+                </div>
+            </div>
         </footer>
 </body>
 
