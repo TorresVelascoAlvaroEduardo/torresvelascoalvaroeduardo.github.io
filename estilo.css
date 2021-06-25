@@ -1,0 +1,171 @@
+* {
+    font-family: 'Bodoni Moda', serif;    
+    background: #faf3e6;    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}  
+
+body {
+    display: flex;
+    flex-direction: column; 
+    padding: 3em;    
+    max-width: 50rem;    
+    border: 1;    
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 0 2px;
+    max-width: 1800px;     
+}
+
+.Titulo h1 {
+    font-weight: 500;
+    font-size: 70px;
+    padding-bottom: 0;
+}
+
+.Titulo h2 {
+    font-weight: 500;
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 3px;
+}
+
+.Titulo h3 {    
+    font-style: italic;
+    padding-top: 3px;
+    text-decoration: underline;
+}
+
+h1, h2, h3 {         
+    padding-bottom: 15px;    
+    text-align: center;
+    color: #272625;
+    text-transform: uppercase;
+}
+
+.Cuerpo {   
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+p, dd, dt {
+    font-size: 130%;
+    max-width: 43rem;
+    margin: 0 auto 0.5em;
+    text-align: justify;
+}
+
+.espa {
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+.nahuatl {
+    font-style: italic;
+}
+
+.Separador {
+    max-width: 43rem;
+    height: 8rem;    
+    margin: 0 auto 0.5em;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+audio {
+    padding-top: 5px;    
+    padding-left: 46.5rem;
+    margin: 5px;
+}
+
+.NavegaBarra {            
+    padding: 1rem 5rem;        
+    position: sticky;
+    top: 0px;        
+}
+nav {
+    border: 2px solid black;
+    border-radius: 5px;     
+    text-align: center;
+    margin: 0 20rem;
+}
+
+ul {     
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {    
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {    
+    color: #272625;
+    margin: 0 1rem;
+    text-decoration: none;    
+}
+
+footer{
+    background: #414141;
+    padding: 30px 0 15px 0;
+    margin: 5em 0 0 0;        
+}
+
+.PiePage {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    max-height: 300px;                                    
+    background: #414141;
+}
+
+.PiePage div {
+    background: #414141;
+}
+
+.Column {
+    margin: 0 2.5em;
+    text-align: center;    
+}
+
+.Column h4{
+    color: #fff;    
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Column p {
+    color: #ccc;
+    background: #414141;
+    font-size: 15px;
+}
+
+.Small {
+    text-align: justify;
+    font-size: 10px;
+    margin: 2.5em auto;
+    color: #9e9797;
+}
+
+.ref {
+    color: #9e9797;
+    text-decoration: none;
+    background: #414141;
+}
