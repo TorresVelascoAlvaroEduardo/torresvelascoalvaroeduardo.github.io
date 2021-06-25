@@ -64,6 +64,7 @@ p, dd, dt{
     columns: #252727;
     font-style: italic;
     font-weight: bold;
+    padding-top: 5px;
 }
 
 .espa {
