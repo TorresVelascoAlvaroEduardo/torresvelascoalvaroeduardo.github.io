@@ -60,6 +60,12 @@ p, dd, dt{
     white-space: pre-line;
 }
 
+.PalabraGlo {
+    columns: #252727;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .espa {
     border: 0;
     font-weight: inherit;
