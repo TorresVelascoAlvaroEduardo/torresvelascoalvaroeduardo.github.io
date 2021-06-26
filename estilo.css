@@ -58,8 +58,7 @@ p, dd, dt{
     white-space: pre-line;
 }
 
-dt {
-    columns: #252727;
+dt {    
     font-style: italic;
     font-weight: bold;
 }
