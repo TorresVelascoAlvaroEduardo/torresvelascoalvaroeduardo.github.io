@@ -9,10 +9,11 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 50rem;
+    border: 1px;
     width: 100%;
     margin: 0.5em auto;
     padding: 0 2px;
+    max-width: 1800px;
 }
 
 .Titulo h1 {
