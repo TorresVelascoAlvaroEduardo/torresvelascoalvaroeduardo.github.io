@@ -58,7 +58,7 @@ p, dd, dt{
     white-space: pre-line;
 }
 
-dt {    
+dt {
     font-style: italic;
     font-weight: bold;
 }
@@ -91,9 +91,10 @@ img {
 }
 
 audio {
+    display: flex;
     padding-top: 5px;
-    padding-left: 46.5rem;
-    margin: 5px;
+    align-items: center;
+    margin: 5px auto;
 }
 
 .NavegaBarra {
